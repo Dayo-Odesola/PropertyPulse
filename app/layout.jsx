@@ -10,9 +10,11 @@ export const metadata = {
 const MainLayout = ({ children }) => {
   return (
     <html lang="en">
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
+      <body>
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 };
